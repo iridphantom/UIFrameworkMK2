@@ -1,0 +1,19 @@
+- url: http://39.101.122.147:3000/user/login
+  inputUsername:
+    by: id
+    value: loginName
+    content: jsh
+  inputPassword:
+    by: id
+    value: password
+    content: 123456
+  inputCode:
+    by: id
+    value: inputCode
+  codeImg:
+    by: xpath
+    value: //img[@data-v-4f5798c5]
+  loginButton:
+    by: xpath
+    value: //button[@data-v-4f5798c5]
+  wait_time: 5
