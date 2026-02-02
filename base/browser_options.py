@@ -6,7 +6,7 @@ from selenium import webdriver
 
 # options封装示例
 # 需要什么设置项，就取消注释
-def options():
+def chrome_options():
     option = webdriver.ChromeOptions()
 
     # 页面加载策略

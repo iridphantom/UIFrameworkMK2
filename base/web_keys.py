@@ -6,7 +6,7 @@ from selenium.common import WebDriverException
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.firefox.service import Service
 
-from .browser_options import options, firefox_options
+from .browser_options import chrome_options, firefox_options
 
 
 # 关键字驱动类实例
@@ -22,7 +22,7 @@ def open_browser(browser_type):
     try:
         if browser_type == 'Chrome':
             service = Service(r'D:\DevelopmentEnvironment\BrowserDrivers\chromedriver.exe')
-            driver = webdriver.Chrome(service=service, options=options())   # options在class17中的options.py中定义
+            driver = webdriver.Chrome(service=service, options=chrome_options())   # options在class17中的options.py中定义
         elif browser_type =='FireFox':
             service = Service(r'D:\DevelopmentEnvironment\BrowserDrivers\geckodriver.exe')
             driver = webdriver.Firefox(service=service, options=firefox_options())
@@ -69,14 +69,6 @@ class WebKeys:
 
 
     # 断言
-    #     def assert_text(self, by, value, expected):
-    #         reality = self.locator(by, value)
-    #         assert reality == expected, f'''
-    #         预期结果未匹配，请检查！
-    #         预期结果为：{expected}
-    #         实际结果为：{reality}
-    #         断言结果：{expected} != {reality}
-    # '''
     def assert_text(self, by, value, expected):
         # 1. 首先定位到元素
         element = self.locator(by, value)  # 这里返回的是 WebElement 对象

@@ -1,0 +1,10 @@
+INFO - 2026-02-02 11:22:58 - main.py - main - <module> - 14 : === 测试运行开始 ===
+INFO - 2026-02-02 11:22:58 - main.py - main - <module> - 24 : 报告保存路径: D:\Project\Python\UIFrameworkMK2\reports\20260202_112258_932_report.html
+INFO - 2026-02-02 11:22:59 - main.py - main - <module> - 47 : 发现测试套件: 1 个用例
+INFO - 2026-02-02 11:23:24 - main.py - main - <module> - 64 : ✓ 测试执行完成，报告已生成
+INFO - 2026-02-02 11:23:24 - main.py - main - <module> - 65 : ▶ 报告路径: D:\Project\Python\UIFrameworkMK2\reports\20260202_112258_932_report.html
+INFO - 2026-02-02 11:23:24 - main.py - main - <module> - 72 : === 测试运行结束 ===
+INFO - 2026-02-02 11:43:08 - main.py - main - <module> - 13 : === 测试运行开始 ===
+INFO - 2026-02-02 11:43:08 - main.py - main - <module> - 23 : 报告保存路径: D:\Project\Python\UIFrameworkMK2\reports\20260202_114308_620_report.html
+INFO - 2026-02-02 11:43:08 - main.py - main - <module> - 47 : 发现测试套件: 1 个用例
+INFO - 2026-02-02 11:43:09 - main.py - main - <module> - 72 : === 测试运行结束 ===

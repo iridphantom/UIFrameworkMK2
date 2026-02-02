@@ -7,7 +7,6 @@ import unittest
 from ddt import ddt, file_data
 from base.web_keys import WebKeys
 
-
 @ddt
 class Login(unittest.TestCase):
 
